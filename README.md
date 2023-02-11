@@ -8,7 +8,7 @@ The CSES Problem set is collection of 300 quality algorithmic problems. They are
 
 https://cses.fi/user/112768
 
-<i><b>My progress --------</b></i> ![7%](https://progress-bar.dev/7)
+<i><b>My progress --------</b></i> ![10%](https://progress-bar.dev/10)
 </br>
 
 <img width="463" alt="Screen Shot 2023-02-11 at 14 37 04" src="https://user-images.githubusercontent.com/68243292/218260963-eb19fcf3-a780-40f6-a93c-d4f5d64a4283.png">
