@@ -21,9 +21,9 @@ long long rec(long long sum) {
 		return dp[sum];
 	}
 	for(int i = 1; i <= 6; i++)
-		if(sum - i >= 0) {
+		// if(sum - i >= 0) {
 			dp[sum] = (dp[sum] + (rec(sum - i) % MOD)) % MOD;
-	}
+	// }
 	return (dp[sum] % MOD);
 };
 
