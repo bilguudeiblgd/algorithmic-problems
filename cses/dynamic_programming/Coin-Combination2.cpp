@@ -13,6 +13,7 @@ long long dp[1000001];
 vector<int> coins;
 
 
+
 int main() {
 	int n, target;
     cin >> n >> target;
@@ -24,11 +25,16 @@ int main() {
     // Knapsack dp
     dp[0] = 1;
 
-    for(long long i = 1; i <= target; i++) {
-        for(long long j = 0; j < n; j++) {
-            if(i - coins[j] >= 0) 
-                dp[i] += (dp[i-coins[j]]) % MOD;
+    for(long long i = 0; i < n; i++) {
+        for(long long j = 1; j <= target; j++) {
+            if(j - coins[i] >= 0) 
+                dp[j] += (dp[j-coins[i]]) % MOD;
+                dp[j] %= MOD;
         }
     }
-    cout << (dp[target] % MOD) << endl;
+    // for(int i = 0; i < target; i++) {
+    //     cout << dp[i] << ' ';
+    // }
+    // cout << endl;
+    cout << dp[target] << endl;
 }
