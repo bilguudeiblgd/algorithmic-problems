@@ -11,4 +11,4 @@ https://cses.fi/user/112768
 <i><b>My progress --------</b></i> ![10%](https://progress-bar.dev/10)
 </br>
 
-<img width="463" alt="Screen Shot 2023-02-11 at 14 37 04" src="https://user-images.githubusercontent.com/68243292/218260963-eb19fcf3-a780-40f6-a93c-d4f5d64a4283.png">
+<img width="453" alt="Screen Shot 2023-08-29 at 17 07 30" src="https://github.com/bilguudeiblgd/algorithmic-problems/assets/68243292/e78b6984-a1c3-4c2e-9c75-88d83035ff68">
