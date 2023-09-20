@@ -53,7 +53,6 @@ int main() {
         }
     }
     
-//	root
     // If there's a separate components, then we have no way of getting 1 component to another
 	vector<vector<int> > components;
 	for(int i = 1; i <= visited.size() - 1; i++) {
