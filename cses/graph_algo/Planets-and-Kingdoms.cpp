@@ -66,8 +66,6 @@ int main() {
   stack<int> s;
   // sending stack s as a output parameter
   step1(n, s);
-  // cout << "step 1 done" << endl;
-  // cout << "Check stack" << endl;
   
   vector<int> scc(n+1, -1);
   int group = 0;
